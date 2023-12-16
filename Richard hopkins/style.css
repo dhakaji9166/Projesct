@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+.header nav.navbar.navbar-expand-lg {
+    background-color: black;
+    padding: 15px 0;
+}
+.header a.navbar-brand {
+    color: white;
+    font-size: 2rem;
+}
+.header a.nav-link {
+    color: white;
+    font-size: 18px;
+   
+}
+.header li.nav-item {
+    padding: 0 12px;
+}
+.home {
+    width: 70px;
+}
+.second{
+    height: 500px;
+    width: 100%;
+    background-color: #403e65;
+   
+}
+.content{
+    color: white;
+    padding: 10px 0;
+}
+.image {
+    height: auto;
+    width: 390px;
+    margin: auto;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work{
+    height: 50px;
+    width: 150px;
+    background-color: #f4db59;
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+}
+.third{
+    height: 300px;
+    width: 100%;
+}
+.third h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.im{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    margin: auto;
+    
+}
+.im p{
+    padding-top: 20px;
+}
+.im img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.forth{
+    /* height: 600px; */
+    width: 100%;
+    background-color: #d7e8f2;
+    text-align: center;
+    padding: 20px;
+}
+.forth h2{
+    padding-top: 30px;
+}
+.box{
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    /* height: 400px; */
+    /* width: 450px; */
+}
+.circle{
+    height: 70px;
+    width: 70px;
+}
+.box img{
+   height: 70px;
+   width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.box p{
+    padding: 20px 70px;
+}
+.box h6{
+    padding-top: 20px;
+    font-weight: 600;
+}
+.box h5{
+    color: red;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+.fifth{
+    height: auto;
+    width: 100%; 
+    text-align: center;
+}
+.fifth h2 {
+    font-size: 29px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.goaway{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 20px;
+}
+.intro{
+    margin: auto;
+}
+.sixth{
+    height: 60vw;
+    width: 100%;
+    background-color: #f3ebde;
+    padding-bottom: 50px;
+   
+}
+.first{
+    background-color: rgb(255 249 205);
+}
+.first h2{
+    padding: 50px;
+    font-weight: 600;
+}
+.sec{
+    background-color: rgb(13 220 140);
+    color: black;
+    border-radius: 50%;
+    padding: 25px;
+    text-align: center;
+    margin-top: 32px;
+
+}
+.three{
+    background-color: rgb(13 220 140);
+    color: black;
+    border-radius: 20px 20px 20px 20px;
+    padding: 30px;
+}
+.three h6{
+    font-weight: bold;
+}
+.seventh{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(14, 0, 87, 0.749);
+}
+.picture{
+    height: 335px;
+    width: 390px;
+    margin: auto;
+    margin-top: 70px;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contents{
+    color: white;
+    margin-top: 80px;
+}
+.move{
+    height: 300px;
+    width:400px ;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 155px;
+
+}
+.move button{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(13 220 140) ;
+    color: white;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+.move p{
+    padding-top: 10px;
+}
+.move h1{
+    padding-top: 10px;
+}
+.eighth{
+    height: 250px;
+    width: 100%;
+    background-color: hsl(209.23deg 100% 7.65%);
+}
+.eighth h2{
+    color: yellow;
+    text-align: center;
+    padding-top: 20px;
+}
+.ninth{
+    height: 600px;
+    width: 100%;
+    background-color: hsl(334.05deg 35.92% 20.2%);
+}
+.ninth{
+    text-align: center;
+     padding-top: 20px;
+     border-top: 1px solid white;
+}
+.ninth h2{
+    color: white;
+}
+
+.card {
+   
+    margin: auto;
+}
+.tenth{
+    height: 200px;
+    width: 100%;
+    background-color: hsl(37.14deg 48.84% 91.57%);
+    margin: auto;
+    text-align: center;
+    /* border-top: 1px solid white; */
+}
+.tenth h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.tenth p{
+ font-size: 20px;
+ 
+}
+.eleventh{
+    height: 400px;
+    width: 100%;
+    background-image: url(rose.jpg);
+    background-position: middle;
+}
+.background{
+    height:400px ;
+    width:100% ;
+    background-color: rgba(0, 0, 0, 0.448);
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.background h2{
+    font-weight: bold;
+    padding-top: 30px;
+}
+.background button{
+    height: 50px;
+    width: 170px;
+    background-color: #f4db59;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.background p{
+    padding-top: 30px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}

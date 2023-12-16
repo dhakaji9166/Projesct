@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <span id="number">0</span>
+            <div class="btn">
+                <button class="green" onclick="increment(); ">Increment</button>
+                <button class="red" onclick="decrement();">Decrement</button>
+            </div>
+            <button class="butn" onclick="stop();">Stop</button>
+        </div>
+    </div>
+
+    <script >
+
+        let intervalId;
+        let number = 0;
+
+        function increment() {
+            intervalId = setInterval(function () {
+                number += 1;
+                let num = document.getElementById("number");
+                num.innerHTML = number;
+                if (number === 0) {
+                    clearInterval(intervalId);
+                }
+            }, 1000)
+        }
+
+        function decrement() {
+            intervalId = setInterval(function () {
+                number -= 1;
+                let nums = document.getElementById("number");
+                nums.innerHTML = number;
+                if (number === 0) {
+                    clearInterval(intervalId);
+                }
+            }, 1000)
+        }
+
+        function stop() {
+            clearInterval(intervalId);
+        }
+
+    </script>
+</body>
+
+</html>
