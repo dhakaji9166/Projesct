@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Watch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="stopwatch">
+            <h1 id="display">00:00:00</h1>
+            <div class="butn">
+                <img src="images/stop.png" onclick="stop();">
+                <img src="images/start.png" onclick="start();">
+                <img src="images/reset.png" onclick="reset();">
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        let displayTime = document.getElementById("display");
+        let [seconds, minutes, hours] = [0, 0, 0];
+        let timer = null;
+
+
+        function stopwatch() {
+            seconds++;
+            if (seconds == 60) {
+                seconds = 0;
+                minutes++;
+                if (minutes == 60) {
+                    minutes = 0;
+                    hours++;
+                }
+            }
+
+            let h = hours < 10 ? "0" + hours : hours;
+            let m = minutes < 10 ? "0" + minutes : minutes;
+            let s = seconds < 10 ? "0" + seconds : seconds;
+            displayTime.innerHTML = h + ":" + m + ":" + s;
+        }
+
+
+        function start() {
+            if (timer !== null) {
+                clearInterval(timer);
+            }
+            timer = setInterval(stopwatch, 1000);
+        }
+
+        function stop() {
+            clearInterval(timer);
+        }
+
+        function reset() {
+
+            clearInterval(timer);
+            [seconds, minutes, hours] = [0, 0, 0];
+            displayTime.innerHTML = "00:00:00";
+        }
+    </script>
 </body>
+
 </html>
