@@ -12,6 +12,7 @@
     <div class="container">
         <div class="box">
             <span id="number">0</span>
+            <input type="number" id="inputValue" placeholder="Enter a number">
             <div class="btn">
                 <button class="green" onclick="increment(); ">Increment</button>
                 <button class="red" onclick="decrement();">Decrement</button>
@@ -20,16 +21,19 @@
         </div>
     </div>
 
-    <script >
+    <script>
 
         let intervalId;
         let number = 0;
 
         function increment() {
+            clearInterval(intervalId);
+            number = getValueFromInput();
             intervalId = setInterval(function () {
-                number += 1;
+
                 let num = document.getElementById("number");
                 num.innerHTML = number;
+                number += 1;
                 if (number === 0) {
                     clearInterval(intervalId);
                 }
@@ -37,10 +41,13 @@
         }
 
         function decrement() {
+            clearInterval(intervalId);
+            number = getValueFromInput();
             intervalId = setInterval(function () {
-                number -= 1;
+
                 let nums = document.getElementById("number");
                 nums.innerHTML = number;
+                number -= 1;
                 if (number === 0) {
                     clearInterval(intervalId);
                 }
@@ -51,6 +58,10 @@
             clearInterval(intervalId);
         }
 
+        function getValueFromInput() {
+            const inputValue = document.getElementById("inputValue").value;
+            return parseInt(inputValue , number) || 0;
+        }
     </script>
 </body>
 

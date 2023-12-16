@@ -69,7 +69,13 @@
 }
 
 .btn {
-    margin-top: 40px;
+    margin-top: 18px;
     display: flex;
 
+}
+
+#inputValue {
+    margin-left: 65px;
+    margin-top: 22px;
+    padding: 4px;
 }
