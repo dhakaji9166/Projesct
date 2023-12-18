@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #color_box{
+        height: 30px;
+        width: 135px;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 5px;
+
+    }
+    button{
+        padding: 7px 2px ;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: burlywood;
+
+
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+</style>
+
+<body>
+<div>
+    <p id="color_box"></p>
+</div>
+    <button >Generate Color</button>
+
+
+    <script>
+
+     let backColor=document.querySelector("body")
+     let colorBox= document.querySelector("#color_box")
+     let btn=document.querySelector("button")
+
+btn.addEventListener("click", random)
+
+ function random(){
+
+ 
+
+let color = "#"
+const colorInput="0123456789ABCDEF"
+for (var i = 0; i<6; i++){
+    color=color+colorInput[Math.floor(Math.random() *16)]
+
+}
+backColor.style.backgroundColor= color
+colorBox.innerText= color
+         
+ };
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
