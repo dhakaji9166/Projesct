@@ -27,7 +27,7 @@
         let number = 0;
 
         function increment() {
-            clearInterval(intervalId);
+          
             number = getValueFromInput();
             intervalId = setInterval(function () {
 
@@ -41,7 +41,7 @@
         }
 
         function decrement() {
-            clearInterval(intervalId);
+           
             number = getValueFromInput();
             intervalId = setInterval(function () {
 
@@ -60,7 +60,7 @@
 
         function getValueFromInput() {
             const inputValue = document.getElementById("inputValue").value;
-            return parseInt(inputValue , number) || 0;
+            return parseInt(inputValue) || 0;
         }
     </script>
 </body>
