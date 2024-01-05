@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* blue:#2691BF */
+.imglogo {
+    width: 70px;
+
+}
+
+.imglogo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.font a.nav-link.active {
+    font-size: 20px;
+    color: #F27144;
+    margin-left: 20px;
+    /* font-weight:bold; */
+}
+
+button.btn.btn-warning {
+    background-color: #F27144;
+    color: white;
+    font-weight: 600;
+}
+
+.about-images {
+    height: 100vh;
+    width: 100%;
+    background-image: url("image/html-system-website-concept_23-2150376770\ \(1\).avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.upper-header {
+    width: 100%;
+    padding: 10px;
+    background: rgb(242, 113, 68);
+    background: linear-gradient(45deg, rgba(242, 113, 68, 1) 63%, rgba(38, 145, 191, 1) 63%);
+}
+
+.gradient {
+    display: flex;
+}
+
+.gradient p {
+    color: white;
+    margin-left: 1030px;
+}
+
+.gradient p i.fa-solid.fa-phone {
+    color: white;
+}
+
+/*---------------------------------------- .codebase ----------------------*/
+
+.codebase {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #777272;
+}
+
+.codebase {
+    padding: 25px;
+}
+
+.heading h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.codebase button.btn {
+    background-color: white;
+    color: #F27144;
+    font-weight: 600;
+    border-radius: 14px;
+    padding: 9px;
+}
+
+
+.codebase h3 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.codebase p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: justify;
+    padding: 8px;
+    /* letter-spacing: 0px; */
+}
+
+.collection-imgae {
+    width: 400px;
+    /* height: 300px; */
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.collection-imgae img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/*--------------------- success story ------------------- */
+/* #03bcf4 */
+/* #fff */
+
+.success-story {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #716a6a98;
+    padding: 20px;
+
+}
+
+.octagon {
+    box-shadow: 10px 10px 5px 12px lightblue;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.success-story h2 {
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.rating .checked {
+    color: #F27144;
+}
+
+.octagon h4 {
+    padding: 45px 0px 0px;
+    text-align: center;
+    color: #F27144;
+    font-weight: 600;
+}
+
+.octagon h5 {
+    /* padding: 45px 0px 0px; */
+    text-align: center;
+    color: #F27144;
+    font-weight: 600;
+}
+
+.octagon p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+    padding: 10px 20px;
+    color: #F27144;
+}
+
+.rating {
+    text-align: center;
+    font-size: 29px;
+    /* color: red; */
+}
+
+.row {
+    position: relative;
+}
+
+.round-image {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 26px;
+
+}
+
+.round-image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 255, 0.463);
+}
+
+.round-images {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    left: 26px;
+
+}
+
+.round-images img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 255, 0.463);
+}
+
+.move {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/*-------------------- footer------------------ */
+li{
+ list-style: none;
+ font-size: 28px;
+ color: white;
+}
+
+footer {
+    padding: 30px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(38, 145, 191);
+    background: linear-gradient(0deg, rgba(38, 145, 191, 1) 2%, rgba(242, 113, 68, 1) 96%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Copyright {
+    width: 100%;
+    padding: 30px;
+    background-color: #4a4646;
+}
+
+.Copyright h3 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
