@@ -6,10 +6,7 @@
 }
 
 /* blue:#2691BF */
-.imglogo {
-    width: 70px;
 
-}
 
 li {
     text-decoration: none;
@@ -29,73 +26,16 @@ h3,
 h4,
 h5 {
     color: #fff;
-    font-weight: bolder !important;
-}
-
-.imglogo img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.font a.nav-link.active {
-    font-size: 20px;
-    color: #F27144;
-    margin-left: 20px;
-    /* font-weight:bold; */
-}
+ 
+} 
 
 button.btn.btn-warning {
     background-color: #F27144;
     color: white;
     font-weight: 600;
 }
-
-.about-images {
-    height: 100vh;
-    width: 100%;
-    background-image: url("image/html-system-website-concept_23-2150376770\ \(1\).avif");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-}
-
-.main-heading {
-    padding-top: 116px;
-}
-
-.main-heading h1 {
-    font-size: 49px;
-    color: #F27144 !important;
-    text-shadow: 1px 5px #fff;
-    text-transform: uppercase;
-}
-
-.main-heading .underline {
-    width: 600px;
-    height: 5px;
-    color: #F27144 !important;
-    box-shadow: 1px 3px #fff;
-    border: none;
-    margin: 0 !important;
-opacity: 1 !important;
-
-}
-
-.main-heading .Three {
-    font-size: 80px;
-    color: #fff !important;
-}
-
-.main-heading h2 {
-    font-size: 40px !important;
-    color: #de4d18 !important;
-
-}
-
-.upper-header {
+ /*------------- start  upper heading --------------- */
+ .upper-header {
     width: 100%;
     padding: 10px;
     background: rgb(242, 113, 68);
@@ -114,12 +54,81 @@ opacity: 1 !important;
 .gradient p i.fa-solid.fa-phone {
     color: white;
 }
+/* ---------------------NAVBAR START--------------------------- */
+
+.imglogo {
+    width: 70px;
+
+}
+.imglogo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.font a.nav-link.active {
+    font-size: 20px;
+    color: #F27144;
+    margin-left: 20px;
+    /* font-weight:bold; */
+}
+
+
+
+.about-images {
+    height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(#0000004c,#00000050),url("image/banner_image.png");
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* background-attachment: fixed; */
+}
+
+.main-heading {
+    padding-top: 116px;
+}
+
+.main-heading h1 {
+    font-size: 49px;
+    color: #F27144 !important;
+    text-shadow: 1px 5px #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main-heading .underline {
+    max-width: 600px;
+    height: 5px;
+    color: #F27144 !important;
+    box-shadow: 1px 3px #fff;
+    border: none;
+    margin: 0 !important;
+opacity: 1 !important;
+
+}
+
+.main-heading .Three {
+    font-size: 80px;
+    color: #fff !important;
+}
+
+.main-heading h2 {
+    font-size: 40px !important;
+    color: #de4d18 !important;
+    font-weight: 600;
+
+}
+
 
 /*---------------------------------------- .codebase ----------------------*/
 
 .codebase {
     width: 100%;
-    /* height: 100vh; */
+padding: 60px !important;
     background-color: #777272;
 }
 
@@ -400,17 +409,18 @@ section.courses .card.cards {
 /*-------------------- footer------------------ */
 footer ul a li {
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
+    font-weight: normal;
 }
 
 footer a {
     text-decoration: none;
 }
 
-footer ul {
+footer ul h3{
     list-style: none;
-    font-size: 28px;
+    font-size: 26px;
     color: white;
     font-weight: 600;
 
@@ -439,6 +449,7 @@ footer a i.fa-brands.fa-linkedin {
     color: white;
 }
 
+/* copyright -------------- */
 
 .Copyright {
     width: 100%;
@@ -450,4 +461,162 @@ footer a i.fa-brands.fa-linkedin {
     text-align: center;
     color: white;
     font-weight: 600;
+}
+
+
+
+
+/* courses section start  */
+
+.slider {
+    /* width: 100%; */
+    height: 500px;
+    /* background-image: linear-gradient(white, black); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#00000080,#00000080),url(image/courses\ background\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider h1
+{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    color: #F27144;
+    text-shadow: 2px 2px white;
+    /* font-weight: bold; */
+}
+/* first section starts */
+.firstsection
+{
+    width: 100%;
+    /* height: 900px; */
+    background-color: #5a5a5a;
+}
+.courses {
+    height: 380px;
+    /* width: 380px; */
+    /* background-color: gray; */
+    border: 1px solid #5a5a5a;
+    border-radius: 10px;
+background-image: linear-gradient(#2691bf, #F27144);
+}
+.coursebg
+{
+    background-image: url(image/coursese\ background\ images.jpg);
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coursebgheading h5
+{
+    color: white;
+    font-size: 18px;
+    margin: 10px 0 0 10px;
+}
+.coursebgheading h6
+{
+    color: white;
+    font-size: 12px;
+    margin: 0px 0 0 10px;
+}
+.reactlogo
+{
+    height: 100px;
+    width: 100px;
+}
+.reactlogo img
+{
+    height: 100%;
+    width: 100%;
+}
+.courses h6
+{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0 0 15px;
+}
+.courses h5
+{
+    color: white;
+    padding: 10px 0 0 15px;
+    font-size: 18px;
+}
+.courses p
+{
+    color: white;
+    padding: 5px 0 0 15px;
+    font-size: 13px;
+}
+i.fa-solid.fa-clock {
+    color: orange;
+    font-size: 14px;
+    /* padding: 10px 0 0 0px; */
+}
+.watch
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 15px;
+}
+.watch h3
+{
+    margin: 0 15px;
+}
+.watch h4
+{
+    color: white;
+    font-size: 14px;
+    padding: 7px 0 0 5px;
+}
+.watchflex
+{
+    display: flex;
+    align-items: centere;
+    justify-content: space-between;
+}
+.courses h3
+{
+    color: white;
+    font-size: 16px;
+    padding: 10px 0 0 15px;
+}
+.star-rating
+{
+    margin: 0 0 0 15px;
+}
+.checked {
+    color: orange;
+  }
+.enroll
+{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    margin: 10px 0 0 15px;
+}
+.enroll a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.enroll a:hover
+{
+    color: white;
+}
+i.fa-solid.fa-greater-than {
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
 }
