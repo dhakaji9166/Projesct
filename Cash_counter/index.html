@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check the cash return</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="manager">
+
+            <h1>Cash Register Manager</h1>
+            <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+
+            <div id="wrapper">
+
+                <h3>Bill Amount:</h3>
+                <input type="number" placeholder="Enter Bill Amount" id="input1">
+
+                <h3>Cash Amount:</h3>
+                <input type="number" placeholder="Enter Total Cash" id="input2"><br>
+
+                <!-- <a href="">Check</a> -->
+                <button id="btn" onclick="calculateChange()">Check</button>
+
+
+                <h2>Return Change</h2>
+
+
+                <div id="table-box">
+
+                    <table>
+                        <tr>
+                            <th>No. of notes</th>
+                            <th id="value1"></th>
+                            <th id="value2"></th>
+                            <th id="value3"></th>
+                            <th id="value4"></th>
+                            <th id="value5"></th>
+                            <th id="value6"></th>
+                            <th id="value7"></th>
+                        </tr>
+                        <tr>
+                            <td>Notes</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
