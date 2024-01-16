@@ -119,7 +119,8 @@ hr {
 
 #bar:hover,
 #bar:active {
-    color: white;
+    color: chocolate;
+    /* background-color: #000; */
 }
 
 @media only screen and (max-width:991px) {
@@ -132,8 +133,8 @@ hr {
 
     body>div>nav>div>button:hover #bar,
     body>div>nav>div>button:focus #bar {
-        /* background-color: #fb774b; */
-        color: white;
+        background-color: #fb774b;
+        /* color: chocolate; */
 
     }
 
@@ -145,6 +146,17 @@ hr {
 
     #navbarSupportedContent>ul>li:nth-child(n)>a {
         padding: 10px 0;
+    }
+    #navbarSupportedContent>button {
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #navbarSupportedContent > form{
+        margin: 1rem 0;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 }
 
