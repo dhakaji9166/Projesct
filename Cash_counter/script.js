@@ -35,5 +35,5 @@ function calculateChange() {
     document.getElementById("value4").innerText = note20;
     document.getElementById("value5").innerText = note10;
     document.getElementById("value6").innerText = note5;
-    document.getElementById("value7").innerText = note1;
+    document.getElementById("value7").innerText = note1;
 }
